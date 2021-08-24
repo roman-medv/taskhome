@@ -12,3 +12,4 @@ RUN pipenv install flask
 RUN pipenv install flask-restplus
 
 CMD [ "pipenv" , "run" , "python" , "./src/main.py" ]
+
